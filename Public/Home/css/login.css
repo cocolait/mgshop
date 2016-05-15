@@ -1,0 +1,146 @@
+@charset "utf-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+input,
+textarea,
+select,
+button {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px none;
+}
+ol,
+ul li {
+  list-style: none;
+}
+body {
+  color: #333;
+  font: 12px/1.6 tahoma, arial, sans-serif;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+.clearfloat {
+  clear: both;
+}
+.hidden {
+  display: none;
+}
+.ml15 {
+  margin-left: 15px !important;
+}
+.buy-btn {
+  display: inline-block;
+  text-align: center;
+  font: 20px/48px Microsoft YaHei;
+  color: #FFF;
+  background: #FFF;
+  height: 48px;
+}
+.mr10 {
+  margin-right: 10px !important;
+}
+.pt0 {
+  padding-top: 0px !important;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.logo-warp {
+  width: 900px;
+  margin: 0px auto;
+  padding: 27px 0px 33px;
+  min-height: 580px;
+}
+.logo-warp .logo-img {
+  background: transparent url("../images/logo.png") no-repeat;
+  display: inline-block;
+  width: 220px;
+  height: 52px;
+}
+.logo-warp .content {
+  padding-top: 40px;
+  height: 500px;
+}
+.logo-warp .content .lg_banner {
+  width: 400px;
+  padding: 20px 0px 0px 40px;
+  float: left;
+  display: inline;
+}
+.logo-warp .content .lg_banner .banner1 {
+  height: 300px;
+  margin-bottom: 10px;
+}
+.logo-warp .content .lg_banner .banner1 img {
+  vertical-align: middle;
+}
+.logo-warp .content .rg_left {
+  width: 322px;
+  float: right;
+  display: inline;
+  border: 1px solid #DCDCDC;
+  padding: 0px 0px 30px 38px;
+}
+.logo-warp .content .rg_left .regist {
+  margin-left: -38px;
+}
+.logo-warp .content .rg_left .regist h3 {
+  font-size: 14px;
+  color: #333;
+  padding: 7px 40px;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px solid #CCC;
+}
+.logo-warp .content .rg_left .rg_mod_box {
+  margin-top: 20px;
+}
+.logo-warp .content .rg_left .rg_mod_box a {
+  color: #333333;
+}
+.logo-warp .content .rg_left .rg_login a {
+  float: right;
+  margin-right: 40px;
+  color: #666;
+  text-decoration: underline;
+}
+.logo-warp .content .rg_left .error_tip {
+  background: #FFFFF8 url("../images/error.png") no-repeat 12px center;
+  border: 1px solid #FFD797;
+  height: 30px;
+  line-height: 30px;
+  color: #FF5783;
+  width: 240px;
+  padding-left: 40px;
+  margin-bottom: 9px;
+  display: bluck;
+}
+.logo-warp .content .rg_left .mb {
+  position: relative;
+  margin-bottom: 15px;
+}
+.logo-warp .content .rg_left .text {
+  background: transparent;
+  border: 1px solid #CCC;
+  height: 28px;
+  width: 270px;
+  padding: 0px 6px;
+}
+.logo-warp .content .rg_left .sub {
+  display: inline;
+  border: medium none;
+  width: 285px;
+  height: 30px;
+  background: #FF4066;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #FFF;
+}
+/*# sourceMappingURL=login.css.map */

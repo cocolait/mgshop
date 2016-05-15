@@ -1,0 +1,106 @@
+.floor-area {
+  overflow: hidden;
+  margin-top: 90px;
+  width: 100%;
+  background: url("../images/floor.png") repeat-x;
+}
+.floor-area .floor {
+  padding: 30px 0px 0px 1px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.floor-area .floor .foot-info {
+  overflow: hidden;
+  float: left;
+  width: 246px;
+  margin-bottom: 10px;
+}
+.floor-area .floor .foot-info .info-logo {
+  display: block;
+  height: 35px;
+  background: url(../images/logo.png) no-repeat;
+}
+.floor-area .floor .foot-info .info-text {
+  overflow: hidden;
+  margin-top: 2px;
+}
+.floor-area .floor .foot-info .info-text p {
+  height: 16px;
+  line-height: 16px;
+  margin-top: 5px;
+  color: #999;
+}
+.floor-area .floor .foot-info .info-text p a {
+  color: #999;
+  cursor: pointer;
+}
+.floor-area .floor .foot_link {
+  float: left;
+  margin-left: -30px;
+}
+.floor-area .floor .foot_link dl {
+  float: left;
+  margin-left: 121px;
+}
+.floor-area .floor .foot_link dt {
+  padding-bottom: 3px;
+  color: #333;
+  font-weight: 700;
+}
+.floor-area .floor .foot_link dd {
+  margin-top: 8px;
+  height: 14px;
+}
+.floor-area .floor .foot_link dd a {
+  color: #666;
+}
+.floor-area .floor .foot_link dd a:hover {
+  text-decoration: underline;
+}
+.floor-area .floor .foot_link .link_safe dd {
+  overflow: hidden;
+  height: 28px;
+  line-height: 28px;
+  margin-left: -12px;
+}
+.floor-area .floor .foot_link .link_safe .pc {
+  width: 50px;
+  float: left;
+  height: 28px;
+  vertical-align: top;
+  background: transparent url("../images/split.png") no-repeat -486px -50px;
+}
+.floor-area .floor .foot_link .link_safe .pa {
+  width: 164px;
+  vertical-align: top;
+  float: left;
+  height: 28px;
+  background: transparent url("../images/split.png") no-repeat -240px -50px;
+}
+.floor-area .floor .foot_link .link_safe .kx {
+  width: 84px;
+  float: left;
+  height: 28px;
+  vertical-align: top;
+  background: transparent url("../images/split.png") no-repeat -400px -50px;
+}
+.floor-area .w-links {
+  width: 1200px;
+  margin: 20px auto 20px;
+  border-top: 1px solid #E5E5E5;
+  background: #FBFBFB none repeat;
+  padding: 10px 0px 10px 0px;
+}
+.floor-area .w-links ul li {
+  float: left;
+}
+.floor-area .w-links ul li a {
+  color: #4D4D4D;
+  font-size: 12px;
+  padding: 10px 14px;
+}
+.floor-area .w-links ul li a:hover {
+  text-decoration: underline;
+  color: #FD4368;
+}
+/*# sourceMappingURL=floor.css.map */

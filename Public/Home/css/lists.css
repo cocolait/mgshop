@@ -1,0 +1,377 @@
+.gds-list-area {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+.gds-list-area .sp_topbanner {
+  border: 1px solid #E5E5E5;
+  margin-top: 30px;
+  width: 1198px;
+}
+.gds-list-area .sp_top_nav {
+  border-bottom: 1px solid #E5E5E5;
+  padding-left: 15px;
+  background-color: #FAFAFA;
+  position: relative;
+}
+.gds-list-area .sp_top_nav .nav_list {
+  height: 38px;
+  width: 1183px;
+}
+.gds-list-area .sp_top_nav .nav_list li {
+  cursor: pointer;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  width: 65px;
+  white-space: nowrap;
+}
+.gds-list-area .sp_top_nav .nav_list li a {
+  display: block;
+  width: 65px;
+  height: 36px;
+  border-top: 2px solid transparent;
+  line-height: 36px;
+  overflow: hidden;
+  font-family: "Microsoft Yahei";
+  color: #333;
+  font-size: 16px;
+}
+.gds-list-area .sp_top_nav .nav_list li.on {
+  position: relative;
+  background-color: #FFF;
+  height: 39px;
+  border-left: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+}
+.gds-list-area .sp_top_nav .nav_list li.on a {
+  border-top: 2px solid #F46;
+}
+.gds-list-area .sp_type_nav {
+  padding: 30px 20px 20px 30px;
+  font-size: 0px;
+  height: 230px;
+}
+.gds-list-area .sp_type_nav .right_img {
+  float: right;
+  padding-left: 20px;
+  border-left: 1px dashed #E5E5E5;
+  margin-top: -10px;
+}
+.gds-list-area .sp_type_nav .right_img img {
+  width: 200px;
+  height: 240px;
+}
+.gds-list-area .sp_type_nav .type_sections {
+  display: inline-block;
+  float: left;
+  width: 925px;
+}
+.gds-list-area .sp_type_nav .type_sections .second {
+  margin-bottom: 30px;
+}
+.gds-list-area .sp_type_nav .type_sections .type_section {
+  float: left;
+  width: 435px;
+  height: 96px;
+  overflow: hidden;
+  margin-right: 25px;
+}
+.gds-list-area .sp_type_nav .type_sections .type_section dt {
+  height: 18px;
+  line-height: 18px;
+  overflow: hidden;
+  font-family: "Microsoft Yahei";
+  font-size: 16px;
+  color: #333;
+}
+.gds-list-area .sp_type_nav .type_sections .type_section dt a {
+  color: #333;
+}
+.gds-list-area .sp_type_nav .type_sections .type_section dd {
+  margin-top: 10px;
+  vertical-align: top;
+  height: 68px;
+  overflow: hidden;
+}
+.gds-list-area .sp_type_nav .type_sections .type_section dd a.cat_img {
+  float: left;
+  height: 66px;
+  border: 1px solid #F2F2F2;
+  background: #FFF;
+  padding: 0px;
+  margin: 0px;
+}
+.gds-list-area .sp_type_nav .type_sections .type_section dd a.cat_img img {
+  width: 66px;
+  height: 66px;
+}
+.gds-list-area .sp_type_nav .type_sections .type_section dd a {
+  display: inline-block;
+  height: 12px;
+  line-height: 11px;
+  padding: 4px 6px;
+  color: #333;
+  overflow: hidden;
+  font-size: 12px;
+  margin: 0px 10px;
+}
+.gds-list-area .sp_type_nav .type_sections .type_section dd a:hover {
+  text-decoration: underline;
+}
+.gds-list-area .sp_type_nav .type_sections .type_section dd ul li {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  margin-bottom: 4px;
+  border-right: 1px solid #EEEEEE;
+}
+.gds-list-area .gd-title {
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 8px;
+  font-family: "Microsoft Yahei";
+}
+.gds-list-area .gd-private-list {
+  position: relative;
+  margin-top: 5px;
+  border: 1px solid #E5E5E5;
+  height: 36px;
+}
+.gds-list-area .gd-private-list .gd-lf {
+  height: 24px;
+  padding: 7px 0px;
+  width: 631px;
+  line-height: 24px;
+  float: left;
+}
+.gds-list-area .gd-private-list .gd-lf .gd-sort {
+  float: left;
+  padding: 0px 20px;
+  border-right: 1px solid #E5E5E5;
+  color: #333;
+}
+.gds-list-area .gd-private-list .gd-lf .gd-hot {
+  color: #F36;
+  font-weight: 700;
+}
+.gds-list-area .gd-private-list .gd-lf .gd-price {
+  float: left;
+  margin-left: 20px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: top;
+}
+.gds-list-area .gd-private-list .gd-lf .gd-price .pr-txt {
+  float: left;
+  width: 46px;
+  height: 22px;
+  line-height: 22px;
+  display: inline-block;
+  border: 1px solid #DADADA;
+  font-size: 12px;
+}
+.gds-list-area .gd-private-list .gd-lf .gd-price .pr-txt .rmb {
+  float: left;
+  color: #999;
+}
+.gds-list-area .gd-private-list .gd-lf .gd-price .pr-txt input {
+  float: left;
+  border: medium none;
+  width: 34px;
+  height: 22px;
+  line-height: 22px;
+}
+.gds-list-area .gd-private-list .gd-lf .gd-price .divid {
+  float: left;
+  margin: 0px 5px;
+  font-size: 12px;
+}
+.gds-list-area .gd-private-list .gd-lf .gd-price .sbt {
+  float: left;
+  background: transparent;
+  border: 1px solid #DADADA;
+  color: #333;
+  width: 45px;
+  height: 22px;
+  line-height: 22px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.gds-list-area .gd-private-list .gd-lf .gd-choice {
+  float: left;
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  border-left: 1px solid #E5E5E5;
+  height: 24px;
+}
+.gds-list-area .gd-private-list .gd-lf .gd-choice .pr-citem {
+  float: left;
+  width: 64px;
+  text-align: center;
+  height: 22px;
+  line-height: 22px;
+  display: inline-block;
+  border: 1px solid #E5E5E5;
+  border-left: none;
+  padding: 0px 5px;
+}
+.gds-list-area .gd-private-list .gd-lf .gd-choice .pr-citem a {
+  color: #333;
+}
+.gds-list-area .gd-list {
+  margin-top: 30px;
+  width: 1225px;
+  height: auto;
+}
+.gds-list-area .gd-list .gd-infos {
+  float: left;
+  position: relative;
+  width: 220px;
+  height: 382px;
+  margin: 0px 25px 50px 0px;
+  overflow: hidden;
+}
+.gds-list-area .gd-list .gd-infos a.img {
+  display: block;
+  width: 220px;
+  height: 330px;
+  background: #FFF none repeat scroll 0% 0%;
+  overflow: hidden;
+}
+.gds-list-area .gd-list .gd-infos a.img img {
+  width: 100%;
+  border: 0px none;
+}
+.gds-list-area .gd-list .gd-infos p.title {
+  position: relative;
+  margin-top: 10px;
+  height: 17px;
+  line-height: 17px;
+  padding-left: 0px;
+  overflow: hidden;
+  color: #666;
+  font-size: 14px;
+}
+.gds-list-area .gd-list .gd-infos p.title .icon-xp {
+  position: relative;
+  display: inline-block;
+  text-indent: -999em;
+  width: 43px;
+  height: 16px;
+  float: left;
+  margin-right: 5px;
+}
+.gds-list-area .gd-list .gd-infos p.title .icon-xp .tagImage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.gds-list-area .gd-list .gd-infos p.title a {
+  float: left;
+  display: block;
+  width: 150px;
+  height: 17px;
+  line-height: 17px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #666;
+}
+.gds-list-area .gd-list .gd-infos .gds-info {
+  margin-top: 10px;
+  padding-left: 0px;
+  height: 16px;
+  line-height: 16px;
+  overflow: hidden;
+}
+.gds-list-area .gd-list .gd-infos .gds-info .price-info {
+  float: left;
+  color: #F36;
+  font-weight: 400;
+  font-size: 14px;
+}
+.gds-list-area .gd-list .gd-infos .gds-info .price-info i {
+  font-family: "Microsoft Yahei";
+  font-style: normal;
+  color: #F36;
+}
+.gds-list-area .gd-list .gd-infos .gds-info .fav-num {
+  float: left;
+  margin: 0px 0px 0px 16px;
+  padding-left: 20px;
+  color: #999;
+  background-image: url("../images/goods.png");
+  background-repeat: no-repeat;
+  background-position: 3px -317px;
+}
+.gds-list-area .gd-list .gd-infos .gd-sp {
+  width: auto;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  padding-left: 10px;
+  background-position: 0px 0px;
+  background-image: none;
+  overflow: hidden;
+  text-indent: 0px;
+  position: absolute;
+  z-index: 10;
+}
+.gds-list-area .gd-list .gd-infos .gd-sp img {
+  width: 52px;
+  height: auto;
+  float: left;
+  margin-right: 2px;
+}
+.gds-list-area .goods-hidden-area {
+  text-align: center;
+  border: 1px solid #FFC8DE;
+  margin-top: 30px;
+  padding: 20px 15px 15px;
+  background: #FFF2F4;
+}
+.gds-list-area .goods-hidden-area .search-nr-img {
+  text-align: center;
+}
+.gds-list-area .goods-hidden-area .search-nr-img img {
+  width: 100px;
+  height: 100px;
+}
+.gds-list-area .goods-hidden-area .search-nr-desc {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.gds-list-area .goods-hidden-area .search-nr-desc span {
+  color: #F46;
+}
+.gds-list-area .imagewall {
+  margin-right: -25px;
+  min-height: initial;
+}
+.gds-list-area .page-area {
+  height: 24px;
+  text-align: center;
+}
+.gds-list-area .page-area a {
+  display: inline-block;
+  margin-right: 12px;
+  padding: 0px 8px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333;
+}
+.gds-list-area .page-area a.atc {
+  background: #333 none repeat scroll 0% 0%;
+  color: #FFF;
+}
+/*# sourceMappingURL=lists.css.map */
