@@ -16,7 +16,7 @@
 1. ueditor 百度富文本编辑器；
 1. hd.js弹出层控件；
 1. 引入了animate.css(动画) 和 csshake.css(晃动)；
-1. 基于TP3.2 auth权限控制；
+1. 基于TP3.2 RBAC权限控制；
 1. uploadify 上传图片；
 
 ##后台
